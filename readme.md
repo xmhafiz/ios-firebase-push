@@ -1,9 +1,12 @@
 # iOS Push Notification using FCM
 
+- Xcode 8.3
+- Tested and works in iOS 9 and iOS 10
+
 ## What's this?
 Code example for iOS using Firebase Cloud Messaging (FCM). In addition, we don't care about generated token since this code will utilize [Send Message to Topics](https://firebase.google.com/docs/cloud-messaging/ios/topic-messaging). 
 
-This is very useful when we need to seperate notification based on topics or group. Also easier to manage user subsription
+This is very useful when we need to separate notification based on topics or group. Also, easier to manage user subsription.
 
 ## Really don't need the token?
 Yes, it is handled by firebase (swizzling method). Therefore, any apps that subscribe to certain topic will surely get the notification (if server send to that topic). Easy right.
